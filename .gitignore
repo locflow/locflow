@@ -1,0 +1,8 @@
+node_modules
+public/*
+!public/.gitkeep
+*.swo
+*.swp
+tests_output/*
+tests/e2e/screenshots/*
+selenium-debug.log
