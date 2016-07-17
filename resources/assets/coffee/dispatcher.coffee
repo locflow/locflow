@@ -15,4 +15,4 @@ class Locflow.Dispatcher
   normalizeName: (name) ->
     "#{@prefix}#{name}"
 
-Locflow.dispatcher = new Locflow.Dispatcher() 
+Locflow.dispatcher = new Locflow.Dispatcher()
