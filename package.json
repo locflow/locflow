@@ -1,7 +1,7 @@
 {
   "name": "locflow",
   "description": "AJAX navigation inspired by Turbolinks",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "public/js/locflow.js",
   "scripts": {
     "test": "karma start",
