@@ -1,7 +1,5 @@
 (function() {
-  var Locflow;
-
-  Locflow = {
+  this.Locflow = {
     version: '2.0.0',
     supported: (function() {
       return (window.history.pushState != null) && (window.requestAnimationFrame != null);
