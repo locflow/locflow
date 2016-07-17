@@ -1,11 +1,14 @@
 {
-  "name": "locflow-client",
-  "description": "Rich web apps with ease",
+  "name": "locflow",
+  "description": "AJAX navigation inspired by Turbolinks",
+  "version": "2.0.0-rc1",
+  "main": "public/locflow.js",
   "scripts": {
     "test": "karma start",
     "test-e2e": "nightwatch",
     "test-server": "node ./tests/e2e/server/server.js",
-    "build": "gulp"
+    "build": "gulp",
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "body-parser": "^1.15.2",
