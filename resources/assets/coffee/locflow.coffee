@@ -1,4 +1,4 @@
-Locflow =
+@Locflow =
   version: '2.0.0'
 
   supported: do ->
